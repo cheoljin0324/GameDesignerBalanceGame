@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb2fe854e1b4bc409da43184ac0a5b0, type: 3}
+  m_Name: BaseObject
+  m_EditorClassIdentifier: 
+  chList:
+  - chName: 1
+    hp: 1000
+    atk: 10
+    def: 50
+    bdef: 30
+    atkspd: 1
+    walkspd: 10
+    atkScale: 10
+    bdrain: 2
+    weapown: sda
+    shiled: sda
+    exp: 1
+    lv: 1
+  - chName: 1
+    hp: 1000
+    atk: 10
+    def: 50
+    bdef: 30
+    atkspd: 1
+    walkspd: 10
+    atkScale: 10
+    bdrain: 2
+    weapown: sda
+    shiled: sda
+    exp: 1
+    lv: 1
+  - chName: 1
+    hp: 1000
+    atk: 10
+    def: 50
+    bdef: 30
+    atkspd: 1
+    walkspd: 10
+    atkScale: 10
+    bdrain: 2
+    weapown: sda
+    shiled: sda
+    exp: 1
+    lv: 1
+  - chName: dsda
+    hp: 123
+    atk: 123
+    def: 123
+    bdef: 123
+    atkspd: 123
+    walkspd: 123
+    atkScale: 123
+    bdrain: 123
+    weapown: dasd
+    shiled: sva
+    exp: 123
+    lv: 142311
+  - chName: dsda
+    hp: 123
+    atk: 123
+    def: 123
+    bdef: 123
+    atkspd: 123
+    walkspd: 123
+    atkScale: 123
+    bdrain: 123
+    weapown: dasd
+    shiled: sva
+    exp: 123
+    lv: 142311
+  - chName: dsda
+    hp: 123
+    atk: 123
+    def: 123
+    bdef: 123
+    atkspd: 123
+    walkspd: 123
+    atkScale: 123
+    bdrain: 123
+    weapown: dasd
+    shiled: sva
+    exp: 123
+    lv: 142311

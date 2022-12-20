@@ -1,0 +1,1983 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.40f1 (ba48d4efcef1) revision 12208340'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/USER/Documents/GameDesignerBalanceTool/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+4445
+Successfully changed project path to: C:/Users/USER/Documents/GameDesignerBalanceTool/My project
+C:/Users/USER/Documents/GameDesignerBalanceTool/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.40f1 (ba48d4efcef1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GameDesignerBalanceTool/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f51)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002691 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.1 MB.
+System memory in use after: 106.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2866.
+Total: 3.370100 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.911400 ms  DeleteObjects: 0.195000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/unity-ui-extensions/Editor/uGUITools.cs
+  artifactKey: Guid(b896154a8dbdc524092e78923478d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/uGUITools.cs using Guid(b896154a8dbdc524092e78923478d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51185067ef3850b0922eefb79da65501') in 0.039878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008310 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs
+  artifactKey: Guid(61bf9d6fa29ed164e8a1df46e0d40835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs using Guid(61bf9d6fa29ed164e8a1df46e0d40835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f476caab0d77f39b251d6b7cde7e7c4a') in 0.004778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017813 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif
+  artifactKey: Guid(d45321e545c13724ab2ba5721db45b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif using Guid(d45321e545c13724ab2ba5721db45b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae2dd59430c1df4210f4f86984ee6a') in 0.095820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021037 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs
+  artifactKey: Guid(0d6228c7c19194b999f9b95fa4711b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs using Guid(0d6228c7c19194b999f9b95fa4711b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba74952a9fe729fcd83efd46d6f262a8') in 0.005291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009261 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs
+  artifactKey: Guid(40e01e4fb1e006b46a0f127c8a9907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs using Guid(40e01e4fb1e006b46a0f127c8a9907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9110c1ea2f6a0d40226e6d99d8e322e2') in 0.005297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017020 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs
+  artifactKey: Guid(b32edf53f1ae84f479c9439b4b5f5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs using Guid(b32edf53f1ae84f479c9439b4b5f5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c28fa6ea82279f8a8c6f3d1970ec2c7') in 0.004824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009645 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs
+  artifactKey: Guid(a18c7c81729dadf40aee407a0cff0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs using Guid(a18c7c81729dadf40aee407a0cff0462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8c0d6bcd414590cff73e67ebf9ab40') in 0.005118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008912 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs
+  artifactKey: Guid(7a29c8587a101744ea9e6198d89cb2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs using Guid(7a29c8587a101744ea9e6198d89cb2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aa80c4832d608bcfbe13495f9d725e') in 0.004871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008918 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+  artifactKey: Guid(0ec526a95e7733b4396be80d3e1df80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs using Guid(0ec526a95e7733b4396be80d3e1df80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316aa1221b7dcf4a5d1751a2e53fcc43') in 0.005706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008984 seconds.
+  path: Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs
+  artifactKey: Guid(ee2802949feca4c4c934331b6a0dc379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs using Guid(ee2802949feca4c4c934331b6a0dc379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1bf8ac9329724d6598bd9395a2450') in 0.005391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008572 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs
+  artifactKey: Guid(b801876ddb189f94f905cd1646564fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs using Guid(b801876ddb189f94f905cd1646564fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348a6139631642aad984f465848cfe0e') in 0.006001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011151 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs
+  artifactKey: Guid(e011f2cb554f96547bbfc22e5f001c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs using Guid(e011f2cb554f96547bbfc22e5f001c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b02b2f7c4eaafd7073176dd9fc79c') in 0.005351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010791 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs
+  artifactKey: Guid(e28e1e9e18f7daa4db5d1ac279d6ce66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs using Guid(e28e1e9e18f7daa4db5d1ac279d6ce66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951bc53311ffc72d2b1dc0529b7d70e8') in 0.006331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007107 seconds.
+  path: Assets/unity-ui-extensions/Examples/UILineRenderer
+  artifactKey: Guid(76cbd968a0a25fe49a0df29493ae7d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UILineRenderer using Guid(76cbd968a0a25fe49a0df29493ae7d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085acb772645fb31e78ce42e700ecd85') in 0.006313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018721 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02Scene.cs
+  artifactKey: Guid(b945ba693af0d824989e76c183a47fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02Scene.cs using Guid(b945ba693af0d824989e76c183a47fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b059c0b82fdfb367ee634c8d55c11eab') in 0.006280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010503 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites/MrsYakaYochaMedium.png
+  artifactKey: Guid(1e2d444ae9d5a4ff1b47ffec28d5165c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites/MrsYakaYochaMedium.png using Guid(1e2d444ae9d5a4ff1b47ffec28d5165c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf05be1704b2a9a0f62edef179bf1c1') in 0.023832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011342 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab
+  artifactKey: Guid(f0537c94867b99f4b975a024066f29a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab using Guid(f0537c94867b99f4b975a024066f29a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ae5f6ebb15191a255264403488cd10') in 0.024768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009026 seconds.
+  path: Assets/unity-ui-extensions/Scripts/UIWindowBase.cs
+  artifactKey: Guid(8803d62703eac8a44a3e9884c71009da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/UIWindowBase.cs using Guid(8803d62703eac8a44a3e9884c71009da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47c2dc9481b8fcab5dd23a5db0613e') in 0.004992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009999 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs
+  artifactKey: Guid(7cff19ba98ef11d4ebf2e8cbeb6a4342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs using Guid(7cff19ba98ef11d4ebf2e8cbeb6a4342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f07449d421b74d105f5468dc51dde8') in 0.005160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009124 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs
+  artifactKey: Guid(a3fd655d1aa9c684d88cdfdd0da9aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs using Guid(a3fd655d1aa9c684d88cdfdd0da9aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05437694098e5514fa6ad86cbe0bce76') in 0.005086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009701 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs
+  artifactKey: Guid(f5f85388e938d9e4599afc6d9441ed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs using Guid(f5f85388e938d9e4599afc6d9441ed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d50c52d8d05be7d7b874ce4c401ec') in 0.005212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009329 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs
+  artifactKey: Guid(7343402602909bd4f928d58433c5c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs using Guid(7343402602909bd4f928d58433c5c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2225413c107e0574c64b214bead1ee4') in 0.005167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008474 seconds.
+  path: Assets/unity-ui-extensions/Editor/ReadOnlyDrawer.cs
+  artifactKey: Guid(33c90f5149877a242981372f6cde9a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/ReadOnlyDrawer.cs using Guid(33c90f5149877a242981372f6cde9a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82013f86bf2069451f64bd9e25b5e1c') in 0.005020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008756 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs
+  artifactKey: Guid(b41c7c4761612e4419bd8a5d44c35a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs using Guid(b41c7c4761612e4419bd8a5d44c35a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bb0ff0a84428074bf811740cfe590c') in 0.007343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005947 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects
+  artifactKey: Guid(f9656bd8c19a5a74c90babab7228f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects using Guid(f9656bd8c19a5a74c90babab7228f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226b3c4665a03e4dd53d1679761ee6c7') in 0.005601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008886 seconds.
+  path: Assets/unity-ui-extensions/Examples/CurlyUI/CurlyUIDemo.unity
+  artifactKey: Guid(3fcaf2574bec7db4db33947995886a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/CurlyUI/CurlyUIDemo.unity using Guid(3fcaf2574bec7db4db33947995886a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4dd7845bf5753ac519e4b8a768f1db') in 0.004770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009842 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes/VerticalCalendar.unity
+  artifactKey: Guid(dc87f62a4e5c94019904b8b6037818b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes/VerticalCalendar.unity using Guid(dc87f62a4e5c94019904b8b6037818b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9997fed3fd8bb37c340172f3a874ebd3') in 0.005456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008729 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs
+  artifactKey: Guid(e14503efd7a60d54db0d148e00aa2169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs using Guid(e14503efd7a60d54db0d148e00aa2169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae9c7faa4b460c4af36eddcce0dca9') in 0.004882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009240 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs
+  artifactKey: Guid(8a649d0fc284fb7458094a7a02315f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs using Guid(8a649d0fc284fb7458094a7a02315f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524faf8edc0ff72e0ce2bfb29fe4027c') in 0.005214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011241 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/sphere.png
+  artifactKey: Guid(be862b17a8fa1544da2abdb50784ccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/sphere.png using Guid(be862b17a8fa1544da2abdb50784ccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b729d1f211a9cc84110a54b82f36cab2') in 0.029219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010521 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/CableCurve.cs
+  artifactKey: Guid(2444f085ab49ff24b888b175f46b55c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/CableCurve.cs using Guid(2444f085ab49ff24b888b175f46b55c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd41ca8782e1f231ebbef58198725946') in 0.006276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008823 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs
+  artifactKey: Guid(b7b84624f1ba7bd49b6cfc63b25f4b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs using Guid(b7b84624f1ba7bd49b6cfc63b25f4b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33e4611c3997160ef5d84c0cb9903b7') in 0.005357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009121 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs
+  artifactKey: Guid(614c629b8dffdb548b9bef9189606bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs using Guid(614c629b8dffdb548b9bef9189606bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0e51ddd64fdfadeb1bd75c340a9ffb') in 0.004892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006342 seconds.
+  path: Assets/unity-ui-extensions/Examples/ColorPicker
+  artifactKey: Guid(a45157cd1cb5ccd439f3cf178dd2c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ColorPicker using Guid(a45157cd1cb5ccd439f3cf178dd2c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b35be679dcc7eb1f7f8d0083aceb67') in 0.005737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009656 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs
+  artifactKey: Guid(916e98f1b982a9a4082fcc45c87b66c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs using Guid(916e98f1b982a9a4082fcc45c87b66c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd5fb592498d5897d773c6cef1c190c') in 0.005279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009783 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs
+  artifactKey: Guid(af1c809ef037025409983d19f9b0baac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs using Guid(af1c809ef037025409983d19f9b0baac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf53a01db692e2501e263f8a1f44ac9') in 0.005959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008679 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs
+  artifactKey: Guid(8ee10f5b9a0e16c40b25e079c03a17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs using Guid(8ee10f5b9a0e16c40b25e079c03a17a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a0876221991dafa3ff7179e777a05e') in 0.006180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008632 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs
+  artifactKey: Guid(0f143353fa45b4df79a3722ad82431d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs using Guid(0f143353fa45b4df79a3722ad82431d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c8d10cf22b484f4ef4b8156424cec6') in 0.005305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009390 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs
+  artifactKey: Guid(ff46fbecea7739f4690e4285c88f53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs using Guid(ff46fbecea7739f4690e4285c88f53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a97765f1c9921eacefe75908b0b985') in 0.005141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009165 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs
+  artifactKey: Guid(bf31acdd4bba9fc45b8a5cc6de985aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs using Guid(bf31acdd4bba9fc45b8a5cc6de985aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b90c1aeabd77a840a181c53c5a1545') in 0.004885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009904 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationScript.cs
+  artifactKey: Guid(5ea46c3573b42624aa573f2d6b091ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationScript.cs using Guid(5ea46c3573b42624aa573f2d6b091ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09678554bb7ae401bf78423973f6c84') in 0.005425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005514 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels
+  artifactKey: Guid(c4c2c5317e2b50f42b0302414577a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels using Guid(c4c2c5317e2b50f42b0302414577a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b11c6c0739109fad94c247184f3198') in 0.004929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009083 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs
+  artifactKey: Guid(adf0efbc9d5b148979111e50bec1893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs using Guid(adf0efbc9d5b148979111e50bec1893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb93b4643ca62f3defa72f900de777f') in 0.004881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005833 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening
+  artifactKey: Guid(b9115417252d4cd42a5e167bdc1c2d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening using Guid(b9115417252d4cd42a5e167bdc1c2d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104920420f8574dea9aa6b668241a84') in 0.005103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008712 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs
+  artifactKey: Guid(b0f2698294b9b524bb75cb394378eb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs using Guid(b0f2698294b9b524bb75cb394378eb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1b462938c7fc7fc2d59699dec1037c') in 0.005530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005648 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations
+  artifactKey: Guid(94b9a5282934b8c43b2aeb7a25815a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations using Guid(94b9a5282934b8c43b2aeb7a25815a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3824ce72044a929b943e721f39b3af') in 0.005097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008472 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs
+  artifactKey: Guid(e9dccd2761b104249a8eb0636b550188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs using Guid(e9dccd2761b104249a8eb0636b550188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c795c0b63423362e600ac9492b0812c3') in 0.005731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008876 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs
+  artifactKey: Guid(c210a6e68020b4349a4020e7da57826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs using Guid(c210a6e68020b4349a4020e7da57826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd23e9132b094138b8ad3f8ebf8e53ee') in 0.005557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008720 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs
+  artifactKey: Guid(d4d7c934af453a9469701b72267593ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs using Guid(d4d7c934af453a9469701b72267593ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5115b5b268f7a59fee5bc4fdcbbbe730') in 0.004875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009177 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs
+  artifactKey: Guid(9409f360a0deeb949a3635126edf8000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs using Guid(9409f360a0deeb949a3635126edf8000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7ccde205397e43cb6509c742ae1e96') in 0.004727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009177 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_CellScroll.controller
+  artifactKey: Guid(c1a16bf117472bf47b662d4bc2647177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_CellScroll.controller using Guid(c1a16bf117472bf47b662d4bc2647177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e3af5c12ef6e2a713ec42d95b2abc2') in 0.011513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009406 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs
+  artifactKey: Guid(0671953a9c649e5438e4d961d1983915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs using Guid(0671953a9c649e5438e4d961d1983915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be30fb8d3a798f76a0f7e8c1e650e0') in 0.007404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012013 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01Scene.cs
+  artifactKey: Guid(69123a589054bf041ba5ead99364646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01Scene.cs using Guid(69123a589054bf041ba5ead99364646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a9c355c80c11b5f6e75c6fb057de62') in 0.007015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012371 seconds.
+  path: Assets/unity-ui-extensions/Examples/TextEffects/swirl.png
+  artifactKey: Guid(73f1719d5b8f9a1499c5a719ab10e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/TextEffects/swirl.png using Guid(73f1719d5b8f9a1499c5a719ab10e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066ccd14a4523b01dd34a7d622b47018') in 0.018915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011632 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs
+  artifactKey: Guid(45facfdc6a639f041b007c036dc527b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs using Guid(45facfdc6a639f041b007c036dc527b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20685b6ee404526d94bd640b7beb1de7') in 0.006516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012882 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts
+  artifactKey: Guid(f1caec3cabf7c4eaaa5b2ad30cf018a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts using Guid(f1caec3cabf7c4eaaa5b2ad30cf018a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28033da19859c07bdcccb630158a907c') in 0.006122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008775 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim
+  artifactKey: Guid(add491cbb06317b48a88a94b0081db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim using Guid(add491cbb06317b48a88a94b0081db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de85c3bb547f90b4b28ed0381f29b237') in 0.010325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009583 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs
+  artifactKey: Guid(cd26acd32e1be2747b9e5f3587b2b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs using Guid(cd26acd32e1be2747b9e5f3587b2b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c04fdf14ef7fcf10b5c731857b27b6') in 0.005053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005685 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities
+  artifactKey: Guid(8ed31929d883df147b53ffeddcb4f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities using Guid(8ed31929d883df147b53ffeddcb4f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14c4217a2d8135b72799c3fe8257fd') in 0.004849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010310 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Add.shader
+  artifactKey: Guid(e064104788d94b349ab13141a30b5660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Add.shader using Guid(e064104788d94b349ab13141a30b5660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317cd6342f8ed36b2fb3498d2cd8f9e6') in 0.008906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008814 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_SAUIM.cs
+  artifactKey: Guid(ee97fdcaa3f5e8447a6bebb781fbe830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_SAUIM.cs using Guid(ee97fdcaa3f5e8447a6bebb781fbe830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d2ab35a9b6cad92f712100ccf1a0fe') in 0.005015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009705 seconds.
+  path: Assets/unity-ui-extensions/Examples/UILineRenderer/LineRendererOrbit.cs
+  artifactKey: Guid(544c2baa26170b34fb34c19cb04b1fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UILineRenderer/LineRendererOrbit.cs using Guid(544c2baa26170b34fb34c19cb04b1fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eba4e6df9dc2a5582b21fff9b11094') in 0.005332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009972 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs
+  artifactKey: Guid(cd3cce5a27f2db94fa394c4719bddecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs using Guid(cd3cce5a27f2db94fa394c4719bddecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f6b894d1004555d953ba82497ca36f') in 0.005573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008972 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIImageEditor.cs
+  artifactKey: Guid(8445204f2ee16e0408274b8400deef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/CUIImageEditor.cs using Guid(8445204f2ee16e0408274b8400deef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c13593db2e78e7ee4a6165f07603d4') in 0.005105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem
+  artifactKey: Guid(d8b966d608f92415db1cd34c3bb28350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem using Guid(d8b966d608f92415db1cd34c3bb28350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e15a9aa7609addb5497c77231059aa9') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014306 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs
+  artifactKey: Guid(22757922dd9d4064d8186fbef72b0772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs using Guid(22757922dd9d4064d8186fbef72b0772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0273174c7259e0db4d9c5de498bae2dc') in 0.007481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013514 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs
+  artifactKey: Guid(b9f902652954d44beb3a916831d27435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs using Guid(b9f902652954d44beb3a916831d27435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f1a4c6bcfa06bc077abe56eb142e1') in 0.005348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009660 seconds.
+  path: Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs
+  artifactKey: Guid(303ab8dad3437bf46814373cfb86cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs using Guid(303ab8dad3437bf46814373cfb86cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645887961e340a60910d98cadc99fd31') in 0.006178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009409 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs
+  artifactKey: Guid(558b109da67a27b4686138b955f3a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs using Guid(558b109da67a27b4686138b955f3a7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2206a2072c1574d84a169c61a495421') in 0.005089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010286 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/CLFZ2-CompressionHelper-ReadME.md
+  artifactKey: Guid(125e21ede8cf31746b15797b86e6a479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/CLFZ2-CompressionHelper-ReadME.md using Guid(125e21ede8cf31746b15797b86e6a479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7f8131896da30667faaf048840ca1a') in 0.022112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009474 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs
+  artifactKey: Guid(803cebee00d5c504e930205383017dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs using Guid(803cebee00d5c504e930205383017dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd907c335c798663feffdd56b2d41e4e4') in 0.005274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005758 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs
+  artifactKey: Guid(6a0cecb173b794c3bb33e379defdeeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs using Guid(6a0cecb173b794c3bb33e379defdeeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37e78b3d6a68dcdad266a428ddb9bfc') in 0.005349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011118 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/swipe.png
+  artifactKey: Guid(85b639891c9cfa54998a58964e8ef747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/swipe.png using Guid(85b639891c9cfa54998a58964e8ef747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1985e476edd175e140a9341e58495d52') in 0.019486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009999 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs
+  artifactKey: Guid(c7e0222f92bdad84c9ee57a127efe088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs using Guid(c7e0222f92bdad84c9ee57a127efe088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522d54f86f3461a276d3d61bfd4d8a05') in 0.005316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010280 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs
+  artifactKey: Guid(cee880d45d4659540ada44c73f95a947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs using Guid(cee880d45d4659540ada44c73f95a947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c531f3d14978378f5fa2ad235f85778f') in 0.005129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008530 seconds.
+  path: Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs
+  artifactKey: Guid(26158f38115d49a4a915f46c7eced4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs using Guid(26158f38115d49a4a915f46c7eced4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be085fdcd4b6a24d90d4e1ae987820f') in 0.004822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008730 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UIGridRenderer.cs
+  artifactKey: Guid(35ff6e8800018654d9558db07c4cd080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UIGridRenderer.cs using Guid(35ff6e8800018654d9558db07c4cd080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd4051f5c2bd679aba1dfe0d424161f') in 0.005191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005810 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion
+  artifactKey: Guid(82ea50ac9a6ea8940a71f86ea8d13bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion using Guid(82ea50ac9a6ea8940a71f86ea8d13bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02393d4040372e8352b35038e7fa1d73') in 0.004896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012249 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/README.md
+  artifactKey: Guid(435a8014e0736334d8dcddbf7a20d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/README.md using Guid(435a8014e0736334d8dcddbf7a20d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a06bf7046b960ce02da7431ac24fe4') in 0.006347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008923 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs
+  artifactKey: Guid(8b52ee3a4491f3742bb35fa3eec798d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs using Guid(8b52ee3a4491f3742bb35fa3eec798d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d94a8005cd5c7214f4c5e2a8770ae06') in 0.004897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010025 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity
+  artifactKey: Guid(84f742a1c72d4f5479bc951e9fd76fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity using Guid(84f742a1c72d4f5479bc951e9fd76fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8af87b20140857548de6692f7077c8') in 0.004984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006741 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes
+  artifactKey: Guid(573635efe02d54e20a59cd3023afa514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes using Guid(573635efe02d54e20a59cd3023afa514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d7fe94a99782ca9ac4141ab444b05e') in 0.005186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011187 seconds.
+  path: Assets/unity-ui-extensions/Shaders
+  artifactKey: Guid(0873351fdb3a65f43901b3ec088375b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders using Guid(0873351fdb3a65f43901b3ec088375b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33e85112528b34c94cb01232a4d847e') in 0.005733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014166 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIText.cs
+  artifactKey: Guid(64c40f35eca5d5d4da4eefac2a627005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIText.cs using Guid(64c40f35eca5d5d4da4eefac2a627005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78854e2da122aed98bafc1dbd14a843d') in 0.005387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009838 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab
+  artifactKey: Guid(f0f89c3fccbfa4bddbac45ae1effe466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab using Guid(f0f89c3fccbfa4bddbac45ae1effe466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f3fd13019c9870046577594436948') in 0.005227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006299 seconds.
+  path: Assets/unity-ui-extensions/Examples/CurlyUI
+  artifactKey: Guid(d426546e1b1bdb346a4f1b7ead452375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/CurlyUI using Guid(d426546e1b1bdb346a4f1b7ead452375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1beb877f3e32ecf469dc6575ad0638') in 0.005300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008255 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(6dbe0cedf3b24054c9d97969aa52b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameManager.cs using Guid(6dbe0cedf3b24054c9d97969aa52b7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fdd69b5bbca6756b9a1c7f4107234a') in 0.005112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008656 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs
+  artifactKey: Guid(3d95ce8fba3dbbf4eb14411412169b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs using Guid(3d95ce8fba3dbbf4eb14411412169b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce6bec2b6e98045b2c93dbc8bea71ee') in 0.005377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013618 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs
+  artifactKey: Guid(08fd87e2db0639a4caf7a053f227a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs using Guid(08fd87e2db0639a4caf7a053f227a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d3e4298cb9136ed2d8421e1fe3c3b5') in 0.004925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010681 seconds.
+  path: Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity
+  artifactKey: Guid(b01f9e610467c714c9077cf2622eb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity using Guid(b01f9e610467c714c9077cf2622eb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826ef6a05719fd6fa9451fc410336179') in 0.005529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017864 seconds.
+  path: Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs
+  artifactKey: Guid(f60a419e63d329f43ba1bf57e98b34bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs using Guid(f60a419e63d329f43ba1bf57e98b34bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235148ce3ffe6ea410d0fd87547ec731') in 0.005093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009706 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs
+  artifactKey: Guid(1ca6e387bb13bff4d90528c055130c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs using Guid(1ca6e387bb13bff4d90528c055130c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365910170123cfb949c8f999264c2fe7') in 0.004978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008744 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs
+  artifactKey: Guid(b5921b909b28e7f4f9a57906c667c9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs using Guid(b5921b909b28e7f4f9a57906c667c9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77df7239a74b57ad0d297c21f31fd809') in 0.005029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008466 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs
+  artifactKey: Guid(4387cc9950f37044c92f9d144a2b1002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs using Guid(4387cc9950f37044c92f9d144a2b1002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b9400a4bbcffe87856db54353c191f') in 0.002458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009390 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs
+  artifactKey: Guid(252dd148b2c1dbe40b7d938a553e3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs using Guid(252dd148b2c1dbe40b7d938a553e3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b24898ce88de960a5d78419cb4b182') in 0.005719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009505 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs
+  artifactKey: Guid(585e75d4a56389b4690b3506f37751bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs using Guid(585e75d4a56389b4690b3506f37751bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a661ba7e3e3eef6438e5c575c5a0d1ea') in 0.006261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016572 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs
+  artifactKey: Guid(c38666cb4d43a304588cf0b7e5f86db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs using Guid(c38666cb4d43a304588cf0b7e5f86db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efad9add5d0fd3b19a2c8f983034f780') in 0.004698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008917 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+  artifactKey: Guid(8185cad1aa202d04ebb9e14ffa533a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs using Guid(8185cad1aa202d04ebb9e14ffa533a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca192d44d113fc5299d31067a7011922') in 0.005612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008864 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle AddSmooth.shader
+  artifactKey: Guid(4c2211b120168e44db4a3a8417013615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle AddSmooth.shader using Guid(4c2211b120168e44db4a3a8417013615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173e35e0438fcfca42e61b746aab184') in 0.005571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009211 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Vertical_Page_Prefab.prefab
+  artifactKey: Guid(54c712c6efbe07d459d10a305f17b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Vertical_Page_Prefab.prefab using Guid(54c712c6efbe07d459d10a305f17b746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aead627ac840baa442df6abd8420e4') in 0.007175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006666 seconds.
+  path: Assets/unity-ui-extensions/Examples/ScrollRectConflictManager
+  artifactKey: Guid(5eba6a393546ae446a70a9133008fc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ScrollRectConflictManager using Guid(5eba6a393546ae446a70a9133008fc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b691720183943360d3b24d7fb8b752') in 0.005611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009303 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem/Menu.cs
+  artifactKey: Guid(9653e8a2f35df4e42b53f383913554af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem/Menu.cs using Guid(9653e8a2f35df4e42b53f383913554af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c2118015ecf3bbbf6b2db8b53da9a') in 0.004889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005959 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample
+  artifactKey: Guid(2ec6f22d638db2344971c34b5c34ed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample using Guid(2ec6f22d638db2344971c34b5c34ed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bec4b274080a5792ca6a1c5e396cfd9') in 0.005307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008952 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs
+  artifactKey: Guid(f620c6407f9b6c74390ab02bfa99d777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs using Guid(f620c6407f9b6c74390ab02bfa99d777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a889281800b49dd621b4e492577d18d9') in 0.005071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008947 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs
+  artifactKey: Guid(502205da447ca7a479ce5ae45e5c19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs using Guid(502205da447ca7a479ce5ae45e5c19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9adcbdad3d20a594f59fb7750f62b54') in 0.004738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009007 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs
+  artifactKey: Guid(2fdf3dae987a8d44fa2e065bc4edaf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs using Guid(2fdf3dae987a8d44fa2e065bc4edaf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639d400be7061dad38a5c7e59fa6fd3a') in 0.005229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008606 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs
+  artifactKey: Guid(b35bd2ce6e015bb4f840cf9267dbe421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs using Guid(b35bd2ce6e015bb4f840cf9267dbe421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b35b4dd81323bc8f615b2f5c1f680') in 0.005930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009796 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs
+  artifactKey: Guid(2ec759101f5786b4b89aae8a1b47ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs using Guid(2ec759101f5786b4b89aae8a1b47ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe3c993b89fabcc2f3e4fbb7e02ded4') in 0.005313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008462 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e368d688fc23dc34271e3d8895143f') in 0.004806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009322 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs
+  artifactKey: Guid(977482c1b88728145ba612c0fdec3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs using Guid(977482c1b88728145ba612c0fdec3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692015ec79ed7f9943e6d3624d3fc98a') in 0.005176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017806 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Alpha Blend.shader
+  artifactKey: Guid(c3d7d8d71a91071469ad7019e77864d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Alpha Blend.shader using Guid(c3d7d8d71a91071469ad7019e77864d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03b9ea3d22e8a9fdbccdc680bb382a4') in 0.005000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009261 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UIHighlightable.cs
+  artifactKey: Guid(d51a356e057c54d48abe97aa2cee2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UIHighlightable.cs using Guid(d51a356e057c54d48abe97aa2cee2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf829bbcf0b51c5a6075c20ec6bbdcf') in 0.005408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006812 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker
+  artifactKey: Guid(7ab63fe1b000c254ebed3937038bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker using Guid(7ab63fe1b000c254ebed3937038bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e6059d1b25fc32f4436be6ecb948fc') in 0.003432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005640 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document
+  artifactKey: Guid(583ffd54340754c459d1e7bd81e90246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document using Guid(583ffd54340754c459d1e7bd81e90246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac60ca503a8cbb39e94dad707e82651') in 0.005461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010292 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/SelectableScaler.cs
+  artifactKey: Guid(65fce2c84ce1eff4383c094d715a7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/SelectableScaler.cs using Guid(65fce2c84ce1eff4383c094d715a7e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad60cd3fb84f788713bd91fa58f9ff9') in 0.005169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014539 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_CellScroll.controller
+  artifactKey: Guid(8bbdb068c73989c438aef167096a86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_CellScroll.controller using Guid(8bbdb068c73989c438aef167096a86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1050566609f183b658d396563a2aec65') in 0.006299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008842 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity
+  artifactKey: Guid(22d1be941599faf45b04ab4c6a2def09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity using Guid(22d1be941599faf45b04ab4c6a2def09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4674bcb39f574797c0701e2d0251a00') in 0.005166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005345 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives
+  artifactKey: Guid(3b6b8774345aa954fb85ec83184b9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives using Guid(3b6b8774345aa954fb85ec83184b9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b806235c1ae89c33c5a18be49c9b61a2') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008540 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs
+  artifactKey: Guid(5a7b69ea2282ad240824a4bce7a65a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs using Guid(5a7b69ea2282ad240824a4bce7a65a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe560ccd7cface02f3d6f52fad441d8') in 0.006674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011973 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/box.png
+  artifactKey: Guid(53265fa76b3529848a7fb47f0f4a594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/box.png using Guid(53265fa76b3529848a7fb47f0f4a594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e12ec51a687d7f32b1bd44db46c73f') in 0.015991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007830 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites
+  artifactKey: Guid(7ffd04bf6a590424fb623c185d6f6ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites using Guid(7ffd04bf6a590424fb623c185d6f6ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba12777514d891045a29e05eb2f408b') in 0.005000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008741 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader
+  artifactKey: Guid(088bbfd9222ee044cb4e4699336e9ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader using Guid(088bbfd9222ee044cb4e4699336e9ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982f9729c0e43ade694ac09ea2766afc') in 0.005338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009381 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIAdditive.shader
+  artifactKey: Guid(20fb5fa09d4675a4e94314a228763c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UIAdditive.shader using Guid(20fb5fa09d4675a4e94314a228763c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4211d757df54da0f928964130263f73a') in 0.005659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006133 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox
+  artifactKey: Guid(726a11b8d64fa0143b34f417f5453f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox using Guid(726a11b8d64fa0143b34f417f5453f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dee3de79a363e9a0b062a9be83346e5') in 0.002524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018316 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs
+  artifactKey: Guid(87cd933870c6506418344281b3cb86fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs using Guid(87cd933870c6506418344281b3cb86fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61e226f1734e94a931dbba012ba6e64') in 0.005001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008925 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UILinearDodge.shader
+  artifactKey: Guid(c3c3af59790cf3749ba49fe1c838c94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UILinearDodge.shader using Guid(c3c3af59790cf3749ba49fe1c838c94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be924376db6fe50e417f074bbad2d13') in 0.005332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069678 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView
+  artifactKey: Guid(e4715bcc5adadca46ac601c64bd58681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView using Guid(e4715bcc5adadca46ac601c64bd58681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8222a1a2d5658ebccaafd53df823035') in 0.014178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011523 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUITextEditor.cs
+  artifactKey: Guid(041976c43b8439747a030b45a4712b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/CUITextEditor.cs using Guid(041976c43b8439747a030b45a4712b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add2b6a24f14ae1fdd0d541985f4b96d') in 0.005177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009290 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs
+  artifactKey: Guid(74a62d95b3be0fe47871dd48fca58b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs using Guid(74a62d95b3be0fe47871dd48fca58b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08c72fa9e2d537026b201208277f18c') in 0.004840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017403 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs
+  artifactKey: Guid(f11f61a6960d26445a760da7dae63cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs using Guid(f11f61a6960d26445a760da7dae63cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafd3494c735bd47d30f6c36781b4e2f') in 0.005186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008774 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs
+  artifactKey: Guid(7a00cad80d8a47b438b394bebe77d0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs using Guid(7a00cad80d8a47b438b394bebe77d0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babee89ccd3dde505e7ae73daf4e30e5') in 0.004877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010641 seconds.
+  path: Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity
+  artifactKey: Guid(e0944d7e4f0234f3fabb9b2f33fe073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity using Guid(e0944d7e4f0234f3fabb9b2f33fe073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09905a8693b6ed9b8bcff7b7ed1b2685') in 0.005286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008693 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs
+  artifactKey: Guid(67f304b9bd84e9848bcfb79f47790081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs using Guid(67f304b9bd84e9848bcfb79f47790081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb1c40817a24894c8370b4d99e3e971') in 0.004804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008662 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader
+  artifactKey: Guid(320f6bb7bde369b4a85c9d89a9ba5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader using Guid(320f6bb7bde369b4a85c9d89a9ba5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec3118e44c97952c527729dd1e3d73') in 0.005897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009166 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIParticleHidden.shader
+  artifactKey: Guid(cf73a0a4b5ea8994f916cd18a97c564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UIParticleHidden.shader using Guid(cf73a0a4b5ea8994f916cd18a97c564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcabd3d80a5aeebf6c03270296436b3') in 0.005127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010200 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider/radial_sprite.psd
+  artifactKey: Guid(ad716093ca8bdf84189f6a67bfb8e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider/radial_sprite.psd using Guid(ad716093ca8bdf84189f6a67bfb8e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2ecb15f7fb9419aab34595f24e5147') in 0.025719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011528 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs
+  artifactKey: Guid(ef22b091ebae52c47aa3e86ad9040c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs using Guid(ef22b091ebae52c47aa3e86ad9040c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18e1462c7a1a529ef0898fa3a30b4e3') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009168 seconds.
+  path: Assets/unity-ui-extensions/RELEASENOTES.md
+  artifactKey: Guid(295bdc5c9df74e146bd5fa63aa5aeaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/RELEASENOTES.md using Guid(295bdc5c9df74e146bd5fa63aa5aeaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba522c3356f467ebdeb4c5e09ec03e6c') in 0.005390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009515 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader
+  artifactKey: Guid(98fed5ba500a9a04a80325266b9911bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader using Guid(98fed5ba500a9a04a80325266b9911bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca78ced71d57aa31c1075dde29a50f') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009152 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs
+  artifactKey: Guid(5b01016ffd900480386cb61341f3269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs using Guid(5b01016ffd900480386cb61341f3269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8975083003668119f5470c6223b457c') in 0.004847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009164 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/01_BasicScene.unity
+  artifactKey: Guid(f5666b6c719a9b544ab322e1066aef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/01_BasicScene.unity using Guid(f5666b6c719a9b544ab322e1066aef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99833b45136bcebea0879ef71810d03f') in 0.004820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005987 seconds.
+  path: Assets/unity-ui-extensions/Scripts/InputModules
+  artifactKey: Guid(a0789c2f62bad6b4c800a3dc502fa18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/InputModules using Guid(a0789c2f62bad6b4c800a3dc502fa18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a18f1652498770796e34ddc26b867e0') in 0.005111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012410 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus
+  artifactKey: Guid(85fc92ec845a749cd9ddd6d6d9f8bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus using Guid(85fc92ec845a749cd9ddd6d6d9f8bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6572be21e1875344cabc8f1d93cf0d9') in 0.005288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008625 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs
+  artifactKey: Guid(6b333d67eb08d464d823874f6a1666c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs using Guid(6b333d67eb08d464d823874f6a1666c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff4fbd44646f596cc9eb015354466c') in 0.005824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009792 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs
+  artifactKey: Guid(b4fbdc2185cba1c42ad07e43eea19561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs using Guid(b4fbdc2185cba1c42ad07e43eea19561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b023d26c815268ef3dae86b9a9a3f8a0') in 0.005383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017905 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs
+  artifactKey: Guid(7a6e620ffa5a4e64b8875761130d0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs using Guid(7a6e620ffa5a4e64b8875761130d0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff6b1d236c7b3744cedbda19fe388a') in 0.005013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008698 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs
+  artifactKey: Guid(c2a77c45e5354bf40bbd63bd817dee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs using Guid(c2a77c45e5354bf40bbd63bd817dee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731d428505b0ce979835d4c480e0a82') in 0.005491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012039 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/infiniteScrollSettings.png
+  artifactKey: Guid(3afd820ab47a7ad4c93c3f65f7504dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/infiniteScrollSettings.png using Guid(3afd820ab47a7ad4c93c3f65f7504dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4deedfc4250db8d8eb4ca53fe8447777') in 0.022020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010712 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs
+  artifactKey: Guid(022c3983095dce44c9504739a8ed7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs using Guid(022c3983095dce44c9504739a8ed7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebe97672aaefc8a2e2a91b79564a246') in 0.005051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009569 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs
+  artifactKey: Guid(fcd1b8078a416f844b695454a4358409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs using Guid(fcd1b8078a416f844b695454a4358409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb5934820f3e7d57b68e1fccceede0') in 0.005228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008820 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs
+  artifactKey: Guid(d00ab96853b24074cb837ee70f07dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs using Guid(d00ab96853b24074cb837ee70f07dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ac8485d1887241a09f4ee0c65496f') in 0.005459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009705 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollViewCell.cs
+  artifactKey: Guid(b77a04c729f174c478baf21a47c16620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollViewCell.cs using Guid(b77a04c729f174c478baf21a47c16620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d5199c48a614cf71a5d3095e2a5dc5') in 0.005022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009707 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs
+  artifactKey: Guid(ced63edd65f3aed41a6c4125a5f54217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs using Guid(ced63edd65f3aed41a6c4125a5f54217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f02f3a59b19d674df7c1b8a821cfb6') in 0.005238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010079 seconds.
+  path: Assets/unity-ui-extensions/Scripts/TabNavigationHelper.cs
+  artifactKey: Guid(62e5af56445f0d24fb5140ef754aebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/TabNavigationHelper.cs using Guid(62e5af56445f0d24fb5140ef754aebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c774b862e452dc92c9716477709b2') in 0.005191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008817 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs
+  artifactKey: Guid(491c635e1f309294187ff24b5c71e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs using Guid(491c635e1f309294187ff24b5c71e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd427c081ff608252535da256b703aaee') in 0.005492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014534 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips
+  artifactKey: Guid(3941688ec5107f5479d09d503b6376c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips using Guid(3941688ec5107f5479d09d503b6376c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2322a170f55d295e4e08e7bdb8bcb7b2') in 0.005333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008714 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs
+  artifactKey: Guid(f1bb7fb3155d62546a876bd63cdcd81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs using Guid(f1bb7fb3155d62546a876bd63cdcd81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cf846549653eaf1f435ef29dc587e4') in 0.004876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009625 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs
+  artifactKey: Guid(51db53697a53f7a479b8570674dae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs using Guid(51db53697a53f7a479b8570674dae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53560311331e2bb71133e6f9d257c1e2') in 0.004910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019077 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast1.gif
+  artifactKey: Guid(d14f8a797b068614581812bd4e927077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast1.gif using Guid(d14f8a797b068614581812bd4e927077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9d10f4137542bc4ed36b8bce66cb6') in 0.016518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011151 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs
+  artifactKey: Guid(3a1216dfb98544e44afb7fb3abc093f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs using Guid(3a1216dfb98544e44afb7fb3abc093f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3a67c3eb1d247a68fee11ea9df2c29') in 0.005038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008903 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs
+  artifactKey: Guid(36b6ee4bee83c498e935eebb6778babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs using Guid(36b6ee4bee83c498e935eebb6778babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb351ec474c25e5bd8f581e3c99d0886') in 0.006117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109578 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs
+  artifactKey: Guid(91558da930270ac4a960ba03b81c836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs using Guid(91558da930270ac4a960ba03b81c836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116571cf973619228e76fa18b860551e') in 0.004994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009422 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs
+  artifactKey: Guid(7b30dd83a12669d4f973ff5a79ca9842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs using Guid(7b30dd83a12669d4f973ff5a79ca9842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec39e464b5bc7dd5316bb87070ee583') in 0.004918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009537 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs
+  artifactKey: Guid(ea8b6678b91baa44eb4de7f20e6684a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs using Guid(ea8b6678b91baa44eb4de7f20e6684a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5c99f912a3fe8b8bebd38127246395') in 0.005061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009447 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs
+  artifactKey: Guid(9abaa5d90896b4d4a937574b6b3878ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs using Guid(9abaa5d90896b4d4a937574b6b3878ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185c408c7d5c145e818c8cf88b446a5e') in 0.005612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008440 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewContext.cs
+  artifactKey: Guid(90b3672ca30312045afd42deb38c2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewContext.cs using Guid(90b3672ca30312045afd42deb38c2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af144f8fdb6c7bdf9ffe336fae00b68b') in 0.005240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009274 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs
+  artifactKey: Guid(173c545de5ff4e048bcc3642f8392e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs using Guid(173c545de5ff4e048bcc3642f8392e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f239eed108add281a28305e03f5fa7ac') in 0.004940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009744 seconds.
+  path: Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity
+  artifactKey: Guid(73d92df095c9b454eaa4b74bc3c559c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity using Guid(73d92df095c9b454eaa4b74bc3c559c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9150cc18aacdb04196133d0a6369595f') in 0.004850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009358 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs
+  artifactKey: Guid(891530df3841c0041ab9982359e02e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs using Guid(891530df3841c0041ab9982359e02e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de6c620509331a5be30732136f7aeff') in 0.004982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009917 seconds.
+  path: Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs
+  artifactKey: Guid(3d7a94ee2faf9f04696882b3a2cbf035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs using Guid(3d7a94ee2faf9f04696882b3a2cbf035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001892d3ca15a313efb3220752ef1411') in 0.005170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009607 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/DaysVertical.prefab
+  artifactKey: Guid(ec6f9b1230e4a4896b7be2e60d3be758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/DaysVertical.prefab using Guid(ec6f9b1230e4a4896b7be2e60d3be758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fcb3101ac1a7079296ac9d7f3508d8') in 0.013266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009324 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs
+  artifactKey: Guid(983a3e151cd916d4faf111dc86266574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs using Guid(983a3e151cd916d4faf111dc86266574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbc0e0507a1f2a738434bfcd7f33633') in 0.004846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008702 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim
+  artifactKey: Guid(0749a4928b1d06d4faccd624c75bcdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim using Guid(0749a4928b1d06d4faccd624c75bcdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a290d3e580e7151d077df2ff8068dfd5') in 0.006330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005679 seconds.
+  path: Assets/unity-ui-extensions/Examples/TextEffects
+  artifactKey: Guid(afd482c1b3a787a47be2acc874c4fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/TextEffects using Guid(afd482c1b3a787a47be2acc874c4fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f9deee976170c2ef1ff40606db9141') in 0.005106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008604 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs
+  artifactKey: Guid(c7be5109ea5b91e4b856621023b15168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs using Guid(c7be5109ea5b91e4b856621023b15168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2dd3cc29d5a9a1bed436c6d24c34a7') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009270 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs
+  artifactKey: Guid(f69e6f88ce470d742adfcbaf0bcbd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs using Guid(f69e6f88ce470d742adfcbaf0bcbd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28b5005da472025749ad130b7a75839') in 0.005803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009382 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs
+  artifactKey: Guid(7454b91158ad32e49ab5d3cdac132574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs using Guid(7454b91158ad32e49ab5d3cdac132574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bd0308ae1c5c3f7d6e9f99ca4f8af0') in 0.005007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009841 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs
+  artifactKey: Guid(06851a815227e5044b0e3c1bf9b3a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs using Guid(06851a815227e5044b0e3c1bf9b3a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61e96db0c24193ede81213d986f528') in 0.004856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008859 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs
+  artifactKey: Guid(61fe0f6272fa94d4eb3dafc6aecd50ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs using Guid(61fe0f6272fa94d4eb3dafc6aecd50ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6a97ee7ddcb9722da13e405827ae0e') in 0.005413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009494 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs
+  artifactKey: Guid(db125c7de00668f4e98849d0aaf366d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs using Guid(db125c7de00668f4e98849d0aaf366d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c79b20920a4cf9e946177e6499963') in 0.005145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009205 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/03_InfiniteScroll.unity
+  artifactKey: Guid(1f93c60c8aa572040a751a20a626451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/03_InfiniteScroll.unity using Guid(1f93c60c8aa572040a751a20a626451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9047ee9d618a838876054e2a032a4dfe') in 0.006501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009834 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs
+  artifactKey: Guid(5b33b2e663e78774c9f0c9af55018725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs using Guid(5b33b2e663e78774c9f0c9af55018725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b9f14cc9792c3ed351f4934103d19b') in 0.005236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009799 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/YearsVertical.prefab
+  artifactKey: Guid(65ce75600991941569988ab4538a21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/YearsVertical.prefab using Guid(65ce75600991941569988ab4538a21a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c10e3b9930b0e19a23b4561dad114f6') in 0.007308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009154 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs
+  artifactKey: Guid(bfc77d7b04a86f845b59fb0979e8ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs using Guid(bfc77d7b04a86f845b59fb0979e8ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f33216677c4a4a687bbeb7120699be4') in 0.005137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005488 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo
+  artifactKey: Guid(d80c37ed1c91b6f4c87ea91bb292f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo using Guid(d80c37ed1c91b6f4c87ea91bb292f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2398daa2e5cc6ad6d9431b70aa0bd6') in 0.004552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008434 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/MainScene.unity
+  artifactKey: Guid(f831abe2c3eec65428a460277a21a1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/MainScene.unity using Guid(f831abe2c3eec65428a460277a21a1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca497bd1445cb3185bf3c7f12911628') in 0.004746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009119 seconds.
+  path: Assets/unity-ui-extensions/Examples/TextEffects/AnimateEffects.cs
+  artifactKey: Guid(1dc69a45cd2765d4db3933346112431a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/TextEffects/AnimateEffects.cs using Guid(1dc69a45cd2765d4db3933346112431a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a56029bb59ebf4b6875f6332902c14') in 0.006006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008820 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs
+  artifactKey: Guid(cf9eb20bd16f1aa448580b085861a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs using Guid(cf9eb20bd16f1aa448580b085861a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0199b9ead74a527b4a5d5696a9e23c24') in 0.004948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009238 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs
+  artifactKey: Guid(7e448480810b55843aefa91c1ab74cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs using Guid(7e448480810b55843aefa91c1ab74cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de31e0200ba3dead19dddbdbb9c4180') in 0.005347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009336 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs
+  artifactKey: Guid(3c9d341c4bc7de548937508e6f837144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs using Guid(3c9d341c4bc7de548937508e6f837144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a7f3b7da71b77937c3b4d7e9bd6fdc') in 0.005170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005920 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events
+  artifactKey: Guid(cbbc689694061e6439664eda55449513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events using Guid(cbbc689694061e6439664eda55449513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcca9ba69d8444a0c4b061918c6c2975') in 0.005436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008884 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/FullScreenScrollSnap.unity
+  artifactKey: Guid(a44f420de3ef6654b8605358fb94901d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/FullScreenScrollSnap.unity using Guid(a44f420de3ef6654b8605358fb94901d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6f8c1a70d76dad4a444fe252fbb26') in 0.004772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013382 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip
+  artifactKey: Guid(dcabbd73a79cd8c4a966e44d7f276790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip using Guid(dcabbd73a79cd8c4a966e44d7f276790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee3db7ad5abf032c01080ea28f0987e') in 0.006510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010647 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList
+  artifactKey: Guid(281614f4c0e3b7a4d9056bd377134172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList using Guid(281614f4c0e3b7a4d9056bd377134172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9a1bfa974482c65be9ee42a966b30') in 0.004688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008947 seconds.
+  path: Assets/Script/Shiled/ShiledDataSet.cs
+  artifactKey: Guid(b38e167455f5d3b4b9c8668b80d4be16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Shiled/ShiledDataSet.cs using Guid(b38e167455f5d3b4b9c8668b80d4be16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9528d20f297e74947bea5400b3049d') in 0.005219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010311 seconds.
+  path: Assets/unity-ui-extensions/Editor/TextPicEditor.cs
+  artifactKey: Guid(5fe8e67609bbee14d8ad0805aac72799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/TextPicEditor.cs using Guid(5fe8e67609bbee14d8ad0805aac72799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246c3ea6ebcf0d400f3d7190fc65b81e') in 0.004834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005653 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls
+  artifactKey: Guid(fab8c1b6e538fad489513f03e0418451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls using Guid(fab8c1b6e538fad489513f03e0418451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b076623961a169f6fb65739460eea87b') in 0.004680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010096 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/AwesomeMenu.prefab
+  artifactKey: Guid(5617592ee912047459b98264a09ddb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/AwesomeMenu.prefab using Guid(5617592ee912047459b98264a09ddb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6096731e664db40d5a3da19cf5038dc') in 0.009601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009000 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs
+  artifactKey: Guid(d373cce4b1f361a40a126bd74d26ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs using Guid(d373cce4b1f361a40a126bd74d26ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d2c8ec35dfeede980848ab7752c97b') in 0.005537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010110 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIMultiply.shader
+  artifactKey: Guid(d287872ca8fd776418c28d332df585c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UIMultiply.shader using Guid(d287872ca8fd776418c28d332df585c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cb386f94a6bdb25c45f66faf5ee1b2') in 0.005763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009985 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/GameMenu.prefab
+  artifactKey: Guid(85d45cc7dbcc7490b91c0aa61f4e73c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/GameMenu.prefab using Guid(85d45cc7dbcc7490b91c0aa61f4e73c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfc761530668719b3853b3f301482a8') in 0.008733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008732 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs
+  artifactKey: Guid(86c224aef3e999140b78d1d7135ba33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs using Guid(86c224aef3e999140b78d1d7135ba33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8a107ec8f4c9639b1caf03966e0f0') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011397 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif
+  artifactKey: Guid(d9ab7e8869df23c40a3327a44afc271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif using Guid(d9ab7e8869df23c40a3327a44afc271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341009d91a19a1f822947afd4b696edf') in 0.017697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011135 seconds.
+  path: Assets/unity-ui-extensions/Editor/AccordionElementEditor.cs
+  artifactKey: Guid(8882b502b0c65b24ba4623d6a383815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/AccordionElementEditor.cs using Guid(8882b502b0c65b24ba4623d6a383815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b0901d6f6ebafa19e3ffda2e0df73') in 0.005301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010086 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Stepper.cs
+  artifactKey: Guid(b1867f0d5b751404f86b0e562a3d783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Stepper.cs using Guid(b1867f0d5b751404f86b0e562a3d783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ac9b4eadc74cfead611c8e9d628138') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019127 seconds.
+  path: Assets/unity-ui-extensions/Examples/ColorPicker/Picker 2.0.prefab
+  artifactKey: Guid(53b194f66900add419869c57ffbe7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ColorPicker/Picker 2.0.prefab using Guid(53b194f66900add419869c57ffbe7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Handle: OnRectTransformDimensionsChange)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RectTransform:set_anchorMin (UnityEngine.Vector2)
+UnityEngine.UI.Extensions.BoxSlider:UpdateVisuals () (at Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs:295)
+UnityEngine.UI.Extensions.BoxSlider:OnValidate () (at Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs:140)
+
+[Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs line 295]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Handle: OnRectTransformDimensionsChange)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RectTransform:set_anchorMax (UnityEngine.Vector2)
+UnityEngine.UI.Extensions.BoxSlider:UpdateVisuals () (at Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs:296)
+UnityEngine.UI.Extensions.BoxSlider:OnValidate () (at Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs:140)
+
+[Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs line 296]
+
+ -> (artifact id: 'c143c154da190038b64cd72db7b66005') in 0.055583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019504 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs
+  artifactKey: Guid(e1dd512d0ed874740902b01df530b2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs using Guid(e1dd512d0ed874740902b01df530b2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5e58161fbedb9ba5c29eef3831aa0c') in 0.006053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015446 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs
+  artifactKey: Guid(9ab7726a352b5004cbf5f8e153868637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs using Guid(9ab7726a352b5004cbf5f8e153868637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24868b780504ed130ea8f4c166ac376') in 0.005404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008765 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs
+  artifactKey: Guid(d0644987412a04edd8105e64bdd008b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs using Guid(d0644987412a04edd8105e64bdd008b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507e43175e21942b4827b447d49a4c0a') in 0.004900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010520 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs
+  artifactKey: Guid(692867a1eddc7df419ec15b05b4084ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs using Guid(692867a1eddc7df419ec15b05b4084ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4080e36ca4123e2a179e1b10f88639fa') in 0.005437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005610 seconds.
+  path: Assets/unity-ui-extensions/Examples/SelectionBox
+  artifactKey: Guid(c717c8d5ba8118f4a83df7b7a702395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/SelectionBox using Guid(c717c8d5ba8118f4a83df7b7a702395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093adcc8197240f98d4f24c3b123e4f7') in 0.003717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011729 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity
+  artifactKey: Guid(3dc06f5aa2fbb624fbec6c044cbcaa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity using Guid(3dc06f5aa2fbb624fbec6c044cbcaa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebd7eade866fbca47f326f9eadcaeee') in 0.005817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012263 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs
+  artifactKey: Guid(45018617dd0e7cf4d8b8800224ac5d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs using Guid(45018617dd0e7cf4d8b8800224ac5d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34711d6a15ab29b1b410c527af6a73ae') in 0.007835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008765 seconds.
+  path: Assets/Script/DataSetting.cs
+  artifactKey: Guid(5995e4728a4181147a9f523ca1dcac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DataSetting.cs using Guid(5995e4728a4181147a9f523ca1dcac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443fc038f36f4cf3c7721f290f823039') in 0.005557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009583 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs
+  artifactKey: Guid(9f2bebd34aaa76541b97e61752a7d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs using Guid(9f2bebd34aaa76541b97e61752a7d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7cf715d4a2664a6ece38755098e110') in 0.004923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009465 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader
+  artifactKey: Guid(0765ecef58833c3429346a1fee45e4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader using Guid(0765ecef58833c3429346a1fee45e4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cee9b74e740e415c21c67ad11a03ef') in 0.005816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018338 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/AwesomeMenu.cs
+  artifactKey: Guid(b6e15980f191049aea70c0c93594887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/AwesomeMenu.cs using Guid(b6e15980f191049aea70c0c93594887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d86e8c7768f26c189a93d6a984843b') in 0.002799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008729 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs
+  artifactKey: Guid(4f3189246d7fc204faba7a1e9c08e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs using Guid(4f3189246d7fc204faba7a1e9c08e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9910f65fb43ec1f6a7f0ef318938a262') in 0.005675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010002 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab
+  artifactKey: Guid(6d45e8f0aa19044ffb3553ca52febef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab using Guid(6d45e8f0aa19044ffb3553ca52febef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e17c0389a31d4c09087bcc4ce7cd8db') in 0.007883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011130 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png
+  artifactKey: Guid(2b2d3cd4355b13b4699d3f1abf451cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png using Guid(2b2d3cd4355b13b4699d3f1abf451cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974f6e6ee611a877620683eb52c53b18') in 0.024492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007100 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts
+  artifactKey: Guid(870b511481ed1da41a45a75eed9c0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts using Guid(870b511481ed1da41a45a75eed9c0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8353c962a6b82969dcdc151a34d7a43f') in 0.003361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005513 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox
+  artifactKey: Guid(1e656d866043cab4fb676dba90e3734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox using Guid(1e656d866043cab4fb676dba90e3734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26feb9124b89415a6f1556bb41142acd') in 0.002576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008667 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs
+  artifactKey: Guid(453baf32313c0bc41a532c409ec25177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs using Guid(453baf32313c0bc41a532c409ec25177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50c2c99487c99ebb091c3e96d70648d') in 0.004906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017702 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs
+  artifactKey: Guid(ff46b67332ade77459ea86ba20638d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs using Guid(ff46b67332ade77459ea86ba20638d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279ed37d61b9b5911bda7fd889a5418') in 0.005254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008656 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIImageCrop.shader
+  artifactKey: Guid(ccf5a0c8f87d3c547aff3daecb3164a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UIImageCrop.shader using Guid(ccf5a0c8f87d3c547aff3daecb3164a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2f9c00d991e967af8ebc816b92daab') in 0.002996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006706 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem
+  artifactKey: Guid(b089525e921a3e0488ae1496edc49167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem using Guid(b089525e921a3e0488ae1496edc49167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a3408b9a187c5b7aaddd4d4c8db77') in 0.004784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008913 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs
+  artifactKey: Guid(9edf9da4c14ad2843879a2331b00f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs using Guid(9edf9da4c14ad2843879a2331b00f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37141ed6c651a7f147b7b3691da1cdc') in 0.004932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009351 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller
+  artifactKey: Guid(01b7a44c798a89c40a32385b0fd06de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller using Guid(01b7a44c798a89c40a32385b0fd06de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126c6487877c8d971b8c2b7e506b3527') in 0.008025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009415 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs
+  artifactKey: Guid(6580683838fcc12479150dd5e76e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs using Guid(6580683838fcc12479150dd5e76e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9079f0ea705774289c25cb8de3ab56b') in 0.004926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009131 seconds.
+  path: Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader
+  artifactKey: Guid(947afae4d36f1274ea2e4098262ceef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader using Guid(947afae4d36f1274ea2e4098262ceef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d12e1bb91d3c36c606ce50a377be89c') in 0.005152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009894 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs
+  artifactKey: Guid(d41844f60d3b21840a3ce64f958bd235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs using Guid(d41844f60d3b21840a3ce64f958bd235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4f8c769671f88f7d09e42b325c2b25') in 0.004918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008308 seconds.
+  path: Assets/Script/Simulator.cs
+  artifactKey: Guid(2ad3c219dc4462342a84f03cceeefbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Simulator.cs using Guid(2ad3c219dc4462342a84f03cceeefbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679297f8f83817b71716b1146e820074') in 0.004613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008928 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs
+  artifactKey: Guid(244394c76ae0d484d83567b74f4332cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs using Guid(244394c76ae0d484d83567b74f4332cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500dbbfd5f8ae8d2bccafa3a7a63245b') in 0.005612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009297 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIScreen.shader
+  artifactKey: Guid(227ac21f7763c00489cc458e3938e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UIScreen.shader using Guid(227ac21f7763c00489cc458e3938e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099d48274846b256f49347cf9dfa3744') in 0.005938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008784 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs
+  artifactKey: Guid(2e82bd2b2afc435438d5d8d7d3459dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs using Guid(2e82bd2b2afc435438d5d8d7d3459dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9ab3cfee5d3ef37b423fc04510f002') in 0.005181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010927 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/OptionsMenu.prefab
+  artifactKey: Guid(11104fd9ff8884a49b96b0d3d0accb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/OptionsMenu.prefab using Guid(11104fd9ff8884a49b96b0d3d0accb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0204cbd0d215e832742b69efde4d3f3c') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008721 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs
+  artifactKey: Guid(8de815c5a2c592d4da033da3146168c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs using Guid(8de815c5a2c592d4da033da3146168c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1fbd363455e3761990c2d9d6aa3e7d') in 0.004856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008860 seconds.
+  path: Assets/Script/TestManager.cs
+  artifactKey: Guid(42ed84d83fe7ea04587e877205f8269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TestManager.cs using Guid(42ed84d83fe7ea04587e877205f8269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436a43fad5f618d973378c96ebcbe990') in 0.002576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005498 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects
+  artifactKey: Guid(cbbc72115bdf3fe4a93d8566634c6e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects using Guid(cbbc72115bdf3fe4a93d8566634c6e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e8d7088ab41b9cbb2c44ae7a178d9') in 0.004719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007090 seconds.
+  path: Assets/unity-ui-extensions/Scripts/VR Extensions
+  artifactKey: Guid(c84a253080bc0ec4995041aa5a6656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/VR Extensions using Guid(c84a253080bc0ec4995041aa5a6656ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d784131d6d6d16a951470797b3bb33') in 0.005947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009493 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Premultiply Blend.shader
+  artifactKey: Guid(0596a6838d78f624397b642817cf20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Premultiply Blend.shader using Guid(0596a6838d78f624397b642817cf20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c0d8b5d964df6e31d3d1675dedd9ff') in 0.005050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008460 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs
+  artifactKey: Guid(73c54b1a82a56fb4f906ab8c75f7a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs using Guid(73c54b1a82a56fb4f906ab8c75f7a030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e46e6dca0cfe7fe3c4b1c281a2fa0ce') in 0.005900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005534 seconds.
+  path: Assets/unity-ui-extensions/Scripts
+  artifactKey: Guid(9d40233b1c5add641bb2f4f7f12af05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts using Guid(9d40233b1c5add641bb2f4f7f12af05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113b3a18f77c23be985535db960e08a1') in 0.002637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008421 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs
+  artifactKey: Guid(b8ee60af491978345bc197ed4e1316bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs using Guid(b8ee60af491978345bc197ed4e1316bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02060d8860c9cedd5d47e1176e28da44') in 0.004777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005471 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout
+  artifactKey: Guid(759c961dc0e85a348ab9cd1278319ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout using Guid(759c961dc0e85a348ab9cd1278319ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede8794b6e781fe42857acb401d17b4e') in 0.004700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009381 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs
+  artifactKey: Guid(f08f1bd2c562a474c99ff9d746d3c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs using Guid(f08f1bd2c562a474c99ff9d746d3c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975c435c26c2c3b741b030d9ac83a2ff') in 0.005065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008771 seconds.
+  path: Assets/Script/CharacterButtonSet.cs
+  artifactKey: Guid(a1b9cac9bc07dbb47bd66b5da62c1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CharacterButtonSet.cs using Guid(a1b9cac9bc07dbb47bd66b5da62c1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c214295c68bd3ae189093fc6b218ad') in 0.005769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009380 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_Animation.anim
+  artifactKey: Guid(9e6e4c5500df9dc439749ba892b2995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_Animation.anim using Guid(9e6e4c5500df9dc439749ba892b2995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850881d9cc46beebd9b9bc5e0b7cb384') in 0.006127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008489 seconds.
+  path: Assets/unity-ui-extensions/Examples/TextEffects/testHref.cs
+  artifactKey: Guid(87d264f28a3959240b775c19c0d11013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/TextEffects/testHref.cs using Guid(87d264f28a3959240b775c19c0d11013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eb2782a9d38603a99b751a28183487') in 0.004821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010711 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png
+  artifactKey: Guid(3c51f0505df8ace4085bc6439a41c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png using Guid(3c51f0505df8ace4085bc6439a41c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7caa4cc9db9cab5a8fa83227fd2692') in 0.016311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010643 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/IScrollSnap.cs
+  artifactKey: Guid(08ba470d8c8dc384e9d5828136742452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/IScrollSnap.cs using Guid(08ba470d8c8dc384e9d5828136742452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beacdf2f63197dd5eeb9fea215e1200c') in 0.005089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006793 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs
+  artifactKey: Guid(026f0e79d105a7d48be98279781275ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs using Guid(026f0e79d105a7d48be98279781275ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b30a97220af8819e3b7a437e4ef45e2') in 0.002568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009858 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs
+  artifactKey: Guid(db83442065d59344c9bf6ffa63a23777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs using Guid(db83442065d59344c9bf6ffa63a23777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0e3472cfbd4b024e08432739dfad78') in 0.005169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+  artifactKey: Guid(1ebce7906e5d20a4fb26d8b510b81926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs using Guid(1ebce7906e5d20a4fb26d8b510b81926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb7c009f464b641f7abb55291771c0') in 0.004997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009521 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Image.prefab
+  artifactKey: Guid(9dff33128ff490641b8e89a0ca210447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Image.prefab using Guid(9dff33128ff490641b8e89a0ca210447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c57cf8e27cf142aca5270cebe5bcde9') in 0.007758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008556 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs
+  artifactKey: Guid(609dcc22aadcc16418bfac22716ee9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs using Guid(609dcc22aadcc16418bfac22716ee9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36beaf6cda19d30469238bc2402adab0') in 0.005864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008960 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs
+  artifactKey: Guid(07afba72913387d488019cbb35ec1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs using Guid(07afba72913387d488019cbb35ec1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242756791807d769b1cd5e1a606c7272') in 0.005252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015163 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationManagerExample.unity
+  artifactKey: Guid(a457ff2aa045adc4896083aaa023a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationManagerExample.unity using Guid(a457ff2aa045adc4896083aaa023a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eae9ff903e1758252800bd576b1461') in 0.005348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009452 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/MainMenu.prefab
+  artifactKey: Guid(e9be8b59801ec4bbe829f57f7b2b9d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/MainMenu.prefab using Guid(e9be8b59801ec4bbe829f57f7b2b9d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042034a6262c0c0b328b845b59a74b80') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009291 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SegmentedControl.cs
+  artifactKey: Guid(439b3dcc2b7714c1e91776a9d161f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SegmentedControl.cs using Guid(439b3dcc2b7714c1e91776a9d161f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da38791590fcf06e040f9f613ed531b') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008877 seconds.
+  path: Assets/unity-ui-extensions/Editor/BoxSliderEditor.cs
+  artifactKey: Guid(8701e045b26e51f4eb345f2ccb3c13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/BoxSliderEditor.cs using Guid(8701e045b26e51f4eb345f2ccb3c13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3453fd027a63c1dc50fd9b8eec3e21') in 0.004847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010140 seconds.
+  path: Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity
+  artifactKey: Guid(9b8d590979bc3264ab9a7df11a0e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity using Guid(9b8d590979bc3264ab9a7df11a0e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bd2426539ae66705a8e2af00d63a90') in 0.004982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009318 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs
+  artifactKey: Guid(7a0647785ed421e449239dbd6512e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs using Guid(7a0647785ed421e449239dbd6512e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cccb547a8bd52fccbf8cac98b222f1f') in 0.004943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009017 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs
+  artifactKey: Guid(88abd442995e349778e1d164d50af64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs using Guid(88abd442995e349778e1d164d50af64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a3b28d351761a0060e660851d41e3c') in 0.002644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009579 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader
+  artifactKey: Guid(65bbb789ada58ab44aaedbe09687f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader using Guid(65bbb789ada58ab44aaedbe09687f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217ffa9317f5a39f7e4542285984d348') in 0.005561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005457 seconds.
+  path: Assets/unity-ui-extensions/Examples/ReorderableList
+  artifactKey: Guid(51472598576671e4891516bfafc2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ReorderableList using Guid(51472598576671e4891516bfafc2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee9e1d74ed1d5f2a181d6b6c37a987') in 0.002413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005850 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic
+  artifactKey: Guid(0e019a51b207adf4dbc65576e8a03ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic using Guid(0e019a51b207adf4dbc65576e8a03ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e47dc772fe2630acd1b6ffc7921d3') in 0.004590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010113 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollView.cs
+  artifactKey: Guid(5b1ee62a075132e49b6fc82cd114e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollView.cs using Guid(5b1ee62a075132e49b6fc82cd114e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9d9725219cccf4c9cf4ff4250239ca') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009203 seconds.
+  path: Assets/unity-ui-extensions/LICENSE
+  artifactKey: Guid(e9a81748fac51154f8688d2e3c46fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/LICENSE using Guid(e9a81748fac51154f8688d2e3c46fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06311590502482e1273ecea0da846adb') in 0.005320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009133 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs
+  artifactKey: Guid(6bb501adc62c7394fae41ae7a6032eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs using Guid(6bb501adc62c7394fae41ae7a6032eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7daffdd2aa421a756119249c1aaf80') in 0.005883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009497 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs
+  artifactKey: Guid(89b61e0416e1256469165fca78d5ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs using Guid(89b61e0416e1256469165fca78d5ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3374989833bc5ebbbb66fb3d64d931') in 0.004858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009580 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs
+  artifactKey: Guid(65af11d29c6cb8c45b3d78d97d98440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs using Guid(65af11d29c6cb8c45b3d78d97d98440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86ff3afa381506da3d9a2ce59c14702') in 0.005044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009612 seconds.
+  path: Assets/unity-ui-extensions/README.md
+  artifactKey: Guid(f6cbd6c26357c6a40947224e172bfdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/README.md using Guid(f6cbd6c26357c6a40947224e172bfdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5e4bec7f4538227ef808dac672a979') in 0.002936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009155 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs
+  artifactKey: Guid(37838caa3fcff7f46a5e1418b35173c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs using Guid(37838caa3fcff7f46a5e1418b35173c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ab201fbb58c56b25d955cbeb2ff387') in 0.005099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008867 seconds.
+  path: Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs
+  artifactKey: Guid(e4dde8b689b437f468ee7005636aa60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs using Guid(e4dde8b689b437f468ee7005636aa60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17e98a9440a7ee6985529ab0273f9a6') in 0.005078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008648 seconds.
+  path: Assets/unity-ui-extensions/Examples/UILineRenderer/TestAddingPoints.cs
+  artifactKey: Guid(6f7b10baa6c50634a979160a8c4f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UILineRenderer/TestAddingPoints.cs using Guid(6f7b10baa6c50634a979160a8c4f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4899583b94cbf8acccf849549fc416') in 0.006158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005872 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI
+  artifactKey: Guid(e8f8c7784bd14f146a01bb324949f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI using Guid(e8f8c7784bd14f146a01bb324949f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bce38109c69d47627f7f938ddf3c71f') in 0.002900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008333 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewContext.cs
+  artifactKey: Guid(82429dd602c927c4faab5b80397e65a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewContext.cs using Guid(82429dd602c927c4faab5b80397e65a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4a742e1997c5a82e61fa067c19cc2c') in 0.004867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008972 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/GameObject (1).prefab
+  artifactKey: Guid(cff6ddbad6d91384d9e5cc079064bcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/GameObject (1).prefab using Guid(cff6ddbad6d91384d9e5cc079064bcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1366f5c84ea1ab4d49d4a002d08ddd9') in 0.009090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009030 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs
+  artifactKey: Guid(6cee1f3bb43ca9c4c9e00b54a998d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs using Guid(6cee1f3bb43ca9c4c9e00b54a998d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e670ff8e0a64c71ba2a4c1eb54c3260') in 0.004905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006172 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations
+  artifactKey: Guid(0f8e29708d324ea48ba2af889fea2c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations using Guid(0f8e29708d324ea48ba2af889fea2c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5536424600aa635df5a7dd1cb239e542') in 0.003080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009206 seconds.
+  path: Assets/unity-ui-extensions/Examples/TextEffects/TextEffects.unity
+  artifactKey: Guid(4410a34295ab4eb43bb12fd6758d69c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/TextEffects/TextEffects.unity using Guid(4410a34295ab4eb43bb12fd6758d69c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4ff8a3f8f94b1701e64824776a93ab') in 0.004880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010356 seconds.
+  path: Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs
+  artifactKey: Guid(08b9f423b73fdfb47b59e7de89863600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs using Guid(08b9f423b73fdfb47b59e7de89863600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af895d378d6225890fc29ff9c7087d6') in 0.005207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009616 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs
+  artifactKey: Guid(cc9ad31350b1b6348b57c626195a562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs using Guid(cc9ad31350b1b6348b57c626195a562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c079460c5a937d954d112d881bba8') in 0.005007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008838 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity
+  artifactKey: Guid(76a920c191abd8a4f9351c7f17c2cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity using Guid(76a920c191abd8a4f9351c7f17c2cdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2686122f5d0c2fb574efd0d6441d964') in 0.005552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008881 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs
+  artifactKey: Guid(4f1f9a7e297738d47b8c6286a737406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs using Guid(4f1f9a7e297738d47b8c6286a737406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df35160dd9e959f37cfee84165e1de') in 0.005871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009191 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs
+  artifactKey: Guid(4210a64d2ce72e9488cf2ad174e9df5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs using Guid(4210a64d2ce72e9488cf2ad174e9df5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9c08db43ec4e1c18339e5b846acec6') in 0.004911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015909 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling
+  artifactKey: Guid(577dcbd98667cbb47ba8c97b564802d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling using Guid(577dcbd98667cbb47ba8c97b564802d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e8e94e5ff749bfb6fbf582f6d8b56e') in 0.005667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005853 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus
+  artifactKey: Guid(160ea0982342c4a0bbb267223478c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus using Guid(160ea0982342c4a0bbb267223478c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93cefb61585a5ec564f4f58311310cd') in 0.004773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022043 seconds.
+  path: Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs
+  artifactKey: Guid(4ef6a0d3c3259384982ae3974fe7e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs using Guid(4ef6a0d3c3259384982ae3974fe7e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ee33f441cbad2bf40ce99ca50aa1b9') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008757 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs
+  artifactKey: Guid(51a6dd27af9048f45a7fc0019884d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs using Guid(51a6dd27af9048f45a7fc0019884d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c97194c7e81a04e864313cd2cacf2b') in 0.002739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017303 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader
+  artifactKey: Guid(fb2e16a3d1280334a9e05394e1890f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader using Guid(fb2e16a3d1280334a9e05394e1890f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fa15be6b0fea3b3cee00bea3aad17f') in 0.005235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008927 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs
+  artifactKey: Guid(e0185937f87604a7497a35019c125107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs using Guid(e0185937f87604a7497a35019c125107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a84fd719b40a63ccad65e626a20dec') in 0.004843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010039 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs
+  artifactKey: Guid(bc733ccacdce62148ac1f46d1dd84ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs using Guid(bc733ccacdce62148ac1f46d1dd84ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48f9577fdcbff26d72d34818124ac4') in 0.005441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008950 seconds.
+  path: Assets/unity-ui-extensions/Editor/UIExtensionsMenuOptions.cs
+  artifactKey: Guid(3cac6d35505037446b512aea22d40688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Editor/UIExtensionsMenuOptions.cs using Guid(3cac6d35505037446b512aea22d40688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef61c734704ee6b3c10b06174f8db5e') in 0.005013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008434 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs
+  artifactKey: Guid(0f473590aed5e3f4ab5a0157b2a53dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs using Guid(0f473590aed5e3f4ab5a0157b2a53dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26e0f2aacb2a0df272863c3a4ab9e7e') in 0.007007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009783 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs
+  artifactKey: Guid(c598b387777d96643991be3f0b6c98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs using Guid(c598b387777d96643991be3f0b6c98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ddf5d5c403eb811800a3515be643c9') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009910 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs
+  artifactKey: Guid(72b70b31ccbda4bae8dd5cda36d2e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs using Guid(72b70b31ccbda4bae8dd5cda36d2e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932af10ace88e6cff4f257a7bb1bfe04') in 0.004923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009416 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab
+  artifactKey: Guid(5f7dc93bebf1e41e280baafd8eaa59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab using Guid(5f7dc93bebf1e41e280baafd8eaa59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c94a90ae02644fc5a2fb61a3b93f698') in 0.009203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005878 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider
+  artifactKey: Guid(06c6e9a20a01e2348acb20c103a628f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider using Guid(06c6e9a20a01e2348acb20c103a628f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a49b4e58ffff2cb7f85b18fe009738') in 0.003024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009735 seconds.
+  path: Assets/unity-ui-extensions/package.json
+  artifactKey: Guid(1dbb3faeb54e2a4498b2472b8760548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/package.json using Guid(1dbb3faeb54e2a4498b2472b8760548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84639d465b785ec79342ba778d45e962') in 0.018388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008534 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/MonoSpacing.cs
+  artifactKey: Guid(97a58789aa01843488ef44dc747ee8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/MonoSpacing.cs using Guid(97a58789aa01843488ef44dc747ee8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0a89903001a4cfd113c858ef5a347a') in 0.006066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008972 seconds.
+  path: Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs
+  artifactKey: Guid(2d6f5ec6d595a31459e6942110d86aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs using Guid(2d6f5ec6d595a31459e6942110d86aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb6f69410447e38c332dd9ce97be309') in 0.004857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005481 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap
+  artifactKey: Guid(14c651cefda8ba648866e2f033a321a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap using Guid(14c651cefda8ba648866e2f033a321a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105aceef2ecba603990d9c4602c4ca6d') in 0.004951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005469 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll
+  artifactKey: Guid(d648997d940777f41b77d17ab29f5cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll using Guid(d648997d940777f41b77d17ab29f5cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef77c52ff203602dded06562442aab47') in 0.006319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010368 seconds.
+  path: Assets/unity-ui-extensions/Examples/ColorPicker/PickerTest.unity
+  artifactKey: Guid(d2365a7a72fdea14f9eaba13cf14f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-ui-extensions/Examples/ColorPicker/PickerTest.unity using Guid(d2365a7a72fdea14f9eaba13cf14f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb818d6a28e221e2cd31b6d5e489978c') in 0.006013 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
